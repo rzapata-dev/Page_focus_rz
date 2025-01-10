@@ -65,6 +65,15 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.app__image{
+    width: 100%; /* Toma el 100% del contenedor */
+  max-width: 380px; /* Tamaño máximo para mantener la proporción en pantallas grandes */
+  aspect-ratio: 1 / 1; /* Hace que el ancho y alto sean iguales (cuadrado) */
+  border-radius: 50%; /* Hace que se vea circular */
+  object-fit: cover; /* Recorta y ajusta la imagen sin deformarla */
+   
+}
+
 .app__title {
     line-height: 150%;
     font-size: 5.2rem;
@@ -115,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
     border: none;
     cursor: pointer;
     outline: inherit;
+
 }
 
 .app__card-button.active {
